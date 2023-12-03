@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla generada con JavaScript</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>TABLA PARA CARGAR ALBUMES
+            
+        </h1>
+        <button id="cargarBtn" class="btn btn-primary">Cargar Lista</button>
+        <button id="borrarBtn" class="btn btn-danger">Borrar Tabla</button>
+        <table id="tabla" class="table">
+            <thead>
+                <tr>
+                    <th>COLOR</th>
+                    <th>ALBUM</th>
+                    <th>NUMERO</th>
+                    <th>TITULO</th>
+                    <th>ACCION</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-cuerpo">
+                <!-- Aquí se añadirán dinámicamente los datos -->
+            </tbody>
+        </table>
+    </div>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
